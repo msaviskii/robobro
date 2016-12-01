@@ -1,0 +1,1 @@
+SELECT block_user FROM `sel_keys` WHERE `block` = '1' and `id` = 117 
