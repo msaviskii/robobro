@@ -123,7 +123,7 @@ function apiRequestJson($method, $parameters) {
   return exec_curl_request($handle);
 }
 
-define('WEBHOOK_URL', trim($set_bot['url']).'/bot.php');
+define('WEBHOOK_URL', trim($set_bot['url']).'/admin_modules/imbot.php');
 
 if(isset($_GET['value']) && is_numeric($_GET['value'])){
   // if run from console, set or delete webhook
