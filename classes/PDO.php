@@ -1,14 +1,14 @@
 <?
 //имя базы
-$dbn = '1tk';
+$dbn = 'heroku_cdc4cbd9fe01f5e';
 //имя сервера
-$dbh = 'localhost';
+$dbh = 'eu-cdbr-west-01.cleardb.com';
 //порт
 $dbr = '3306';
 //имя пользователя
-$dbu = '1tk';
+$dbu = 'be12266525e07d';
 //пароль
-$dbp = 'q1w2e3r4t5';
+$dbp = '7a02b20a';
 
   ob_start();
   session_name('sid');
